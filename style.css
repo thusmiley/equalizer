@@ -4,8 +4,6 @@
           box-sizing: border-box;
   margin: 0;
   padding: 0;
-  -webkit-text-decoration: 0;
-          text-decoration: 0;
   -webkit-transition: all ease 0.3s;
   transition: all ease 0.3s;
 }
@@ -17,6 +15,10 @@ body {
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
+}
+
+a {
+  text-decoration: none;
 }
 
 img {
