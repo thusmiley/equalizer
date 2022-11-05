@@ -1,0 +1,352 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-text-decoration: 0;
+          text-decoration: 0;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #191826;
+  background-image: url("./assets/bg-main-desktop.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
+img {
+  max-width: 100%;
+}
+
+.pattern1 {
+  position: absolute;
+  top: -5%;
+  right: 0%;
+  z-index: -1;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.logo {
+  margin: 62px auto 127px auto;
+}
+
+.body1 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.body2 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.heading1 {
+  font-size: 88px;
+  line-height: 88px;
+  word-spacing: -1px;
+  font-weight: 700;
+}
+
+.heading2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.hero-heading {
+  margin-bottom: 321px;
+}
+
+.hero-heading h1 {
+  max-width: 20ch;
+  margin-bottom: 40px;
+}
+
+.hero-heading p {
+  max-width: 70ch;
+}
+
+.main-content {
+  background-color: #191826;
+  height: 600px;
+  border-radius: 10px;
+  background-image: url("./assets/bg-pattern-2.svg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  position: relative;
+  margin-bottom: 200px;
+}
+
+.app {
+  width: 312px;
+  position: absolute;
+  top: -213px;
+  left: 100px;
+}
+
+.app:hover {
+  -webkit-filter: hue-rotate(190deg) saturate(3);
+          filter: hue-rotate(190deg) saturate(3);
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+}
+
+.gradient-text {
+  background-image: -webkit-gradient(linear, left top, right top, from(#66E2DC), color-stop(25%, #FA7453), color-stop(50%, #6edeff), color-stop(75%, #ff4d00), to(#66E2DC));
+  background-image: linear-gradient(90deg, #66E2DC 0%, #FA7453 25%, #6edeff 50%, #ff4d00 75%, #66E2DC 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  background-size: 1000%;
+  background-position: -100%;
+  -webkit-animation: animatedText 12s linear infinite;
+          animation: animatedText 12s linear infinite;
+}
+
+@-webkit-keyframes animatedText {
+  0% {
+    background-position: -150%;
+  }
+  100% {
+    background-position: 50%;
+  }
+}
+
+@keyframes animatedText {
+  0% {
+    background-position: -150%;
+  }
+  100% {
+    background-position: 50%;
+  }
+}
+
+.card {
+  background-color: #fa7453;
+  border-radius: 10px;
+  position: absolute;
+  top: 90px;
+  right: 100px;
+  max-width: 446px;
+  height: 625px;
+  padding: 55px;
+  color: #fcfaf9;
+}
+
+.card p {
+  margin: 22px auto 39px auto;
+}
+
+.price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 46px;
+}
+
+.btn {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fcfaf9;
+  border-radius: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.buttons {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  row-gap: 16px;
+}
+
+.btn-ios {
+  background-color: #191826;
+}
+
+.btn-ios:hover {
+  background-color: #66e2dc;
+}
+
+.btn-android {
+  color: #191826;
+  background-color: #fcfaf9;
+}
+
+.btn-android:hover {
+  background-color: #ffb964;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 90px;
+}
+
+.copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.copyright img {
+  margin-right: 138px;
+}
+
+.icon:hover {
+  -webkit-filter: invert(55%) sepia(62%) saturate(1642%) hue-rotate(327deg) brightness(103%) contrast(96%);
+          filter: invert(55%) sepia(62%) saturate(1642%) hue-rotate(327deg) brightness(103%) contrast(96%);
+}
+
+.ig {
+  margin: 0px 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    background-image: url("./assets/bg-main-tablet.png");
+    overflow-x: hidden;
+  }
+  .container {
+    max-width: 696px;
+  }
+  .logo {
+    margin: 60px auto 95px auto;
+  }
+  .hero-heading p {
+    font-size: 18px;
+    max-width: 520px;
+  }
+  .hero-heading .heading1 {
+    font-size: 64px;
+    max-width: 12ch;
+  }
+  .pattern1 img {
+    width: 95%;
+  }
+  .card {
+    z-index: 1;
+    max-width: 399px;
+    height: 546px;
+    right: 60px;
+    top: 150px;
+    padding: 45px;
+  }
+  .card h2 {
+    font-size: 32px;
+    margin-top: -15px;
+  }
+  .card p {
+    font-size: 18px;
+    margin-top: 12px;
+    margin-bottom: 15px;
+  }
+  .app {
+    max-width: 270px;
+    top: -138px;
+    left: 60px;
+  }
+  .copyright {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .copyright img {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    background-image: url("./assets/bg-main-mobile.png");
+  }
+  body .pattern1 img {
+    display: none;
+  }
+  .container {
+    max-width: 327px;
+  }
+  .logo {
+    margin: 40px auto 64px auto;
+  }
+  .hero-heading {
+    margin-bottom: 164px;
+  }
+  .hero-heading p {
+    font-size: 16px;
+  }
+  .hero-heading .heading1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .main-content {
+    width: 100%;
+    background-size: 80%;
+    margin-bottom: 450px;
+  }
+  .card {
+    width: 100%;
+    height: 570px;
+    right: 0px;
+    top: 380px;
+    padding: 40px 30px;
+  }
+  .app {
+    max-width: 209px;
+  }
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    justify-items: start;
+  }
+  .copyright {
+    margin-bottom: 64px;
+  }
+  .icons {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
